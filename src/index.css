@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Set the base background color to white */
+  background-color: #ffffff;
+  
+  /* Create a subtle black dotted pattern using a radial gradient.
+     The dot (with 1px radius) is rendered in black with 20% opacity,
+     then fades to transparent. */
+  background-image: radial-gradient(circle, rgba(0, 0, 0, 0.2) 1px, transparent 1px);
+
+  /* Adjust the pattern spacing; every 20px the pattern repeats.
+     You can change these values as desired */
+  background-size: 20px 20px;
+  
+  /* Optionally, center the pattern */
+  background-position: center;
+}
